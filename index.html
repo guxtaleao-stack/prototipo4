@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jornal SESI Hamleto</title>
+<style>
+    body{
+        margin:0;
+        background:#efefef;
+        font-family:Georgia, serif;
+    }
+
+    .page{
+        width:950px;
+        min-height:1400px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        margin:40px auto;
+        background:white;
+        padding:50px;
+        box-shadow:0 0 10px rgba(0,0,0,0.2);
+        page-break-after:always;
+    }
+
+    .edition-title{
+        text-align:center;
+        border-bottom:3px solid black;
+        padding-bottom:12px;
+        margin-bottom:30px;
+    }
+
+    h1{ margin:0; font-size:46px; }
+
+    .page-number{
+        text-align:right;
+        font-size:14px;
+        margin-top:30px;
+    }
+
+    .big-title{
+        font-size:34px;
+        font-weight:bold;
+        margin-bottom:15px;
+        text-transform:uppercase;
+    }
+
+    .small-title{
+        font-size:20px;
+        font-weight:bold;
+        margin:12px 0;
+        text-transform:uppercase;
+    }
+
+    .text{
+        font-size:17px;
+        text-align:justify;
+        line-height:1.45;
+        margin-bottom:18px;
+    }
+
+    .red-box{
+        width:100%;
+        background:#b30000;
+        height:180px;
+        margin:18px 0;
+    }
+
+    .columns{
+        display:flex;
+        gap:25px;
+        flex:1;
+    }
+
+    .col{ flex:1; }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 ================== -->
+<div class="page">
+
+    <div>
+        <div class="edition-title">
+            <h1>Jornal SESI Hamleto</h1>
+            <p>Edição Especial — 05 / 11 / 2025</p>
+        </div>
+
+        <div class="big-title">CONCURSO ESCOLAR PREMIA MELHOR POEMA SOBRE A CIDADE</div>
+        <div class="text">
+A Escola SESI promoveu nesta semana um concurso literário com alunos do ensino fundamental e médio.
+O desafio era escrever poemas sobre a cidade, cultura e memória local. O vencedor foi escolhido por professores convidados
+e recebeu medalha e certificado de destaque acadêmico.
+        </div>
+
+        <div class="red-box"></div>
+
+        <div class="text">
+A biblioteca da escola ficou lotada durante a apresentação.
+Os estudantes também puderam recitar seus poemas ao público. 
+O evento foi tão bem recebido que a direção planeja repetir a iniciativa no ano que vem.
+        </div>
+
+        <div class="columns">
+            <div class="col">
+                <div class="small-title">ALUNOS SE DESTACAM EM ROBÓTICA</div>
+                <div class="text">
+A equipe do SESI Hamleto conquistou o segundo lugar na competição de robótica entre escolas do estado.
+Os alunos desenvolveram um robô capaz de mover objetos e realizar pequenas tarefas.
+Professores afirmam que o projeto segue em evolução e poderá participar de outros torneios.
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="small-title">NOVA QUADRA ESPORTIVA</div>
+                <div class="text">
+Foi inaugurada a nova quadra esportiva da escola, equipada com arquibancada e marcações oficiais.
+A reforma faz parte de um projeto de incentivo ao esporte e saúde entre os alunos.
+A quadra já começou a ser usada para campeonatos internos.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-number">Página 1</div>
+</div>
+
+
+
+<!-- ================= PAGE 2 ================== -->
+<div class="page">
+    <div>
+        <div class="big-title">FEIRA DE CIÊNCIAS ATRAI VISITANTES E FAMÍLIAS</div>
+        <div class="text">
+A tradicional feira de ciências apresentou experimentos de química, física, biologia e tecnologia.
+Pais, familiares e visitantes puderam conhecer trabalhos feitos pelos próprios estudantes,
+que se tornaram guias da exposição.
+        </div>
+
+        <div class="columns">
+            <div class="col">
+                <div class="red-box"></div>
+                <div class="text">
+Entre os projetos, um destaque foi o sistema de irrigação automático para hortas.
+Segundo os alunos, a ideia surgiu como resposta ao desperdício de água.
+O experimento chamou atenção de professores de outras escolas presentes.
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="small-title">PALESTRA SOBRE SAÚDE MENTAL</div>
+                <div class="text">
+Uma psicóloga convidada realizou uma palestra sobre ansiedade e equilíbrio emocional.
+O objetivo foi conscientizar estudantes e familiares sobre os cuidados com a mente.
+A atividade teve momentos de conversa e perguntas abertas ao público.
+                </div>
+                <div class="red-box" style="height:240px;"></div>
+            </div>
+        </div>
+
+        <div class="small-title">CAMPEONATO DE XADREZ COMEÇA ESTE MÊS</div>
+        <div class="text">
+O campeonato interno de xadrez terá etapas eliminatórias e final com troféu para o vencedor.
+As inscrições estão abertas para todas as turmas.
+        </div>
+    </div>
+
+    <div class="page-number">Página 2</div>
+</div>
+
+
+
+<!-- ================= PAGE 3 ================== -->
+<div class="page">
+
+    <div>
+        <div class="red-box" style="height:250px;"></div>
+
+        <div class="big-title">ALUNOS REALIZAM AÇÃO DE SOLIDARIEDADE</div>
+        <div class="text">
+Turmas do ensino médio organizaram doações de roupas, alimentos e brinquedos para famílias carentes.
+Os próprios estudantes montaram caixas de coleta e divulgaram a iniciativa na comunidade.
+        </div>
+
+        <div class="columns">
+            <div class="col">
+                <div class="small-title">VISITA AO MUSEU HISTÓRICO</div>
+                <div class="text">
+Estudantes viajaram para conhecer o museu da cidade e aprender sobre a fundação local.
+Guias apresentaram peças arqueológicas, documentos antigos e objetos preservados.
+Além da visita, houve atividades educativas e desenhos sobre a história da cidade.
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="red-box"></div>
+                <div class="text">
+A visita fez parte da disciplina de história e será usada para
+compor um projeto escolar que será exposto nos corredores da escola.
+                </div>
+            </div>
+        </div>
+
+        <div class="small-title">AULA ABERTA DE MÚSICA</div>
+        <div class="text">
+O coral escolar apresentou músicas populares brasileiras.
+Os alunos praticaram durante um mês e encantaram o público durante o evento.
+        </div>
+    </div>
+
+    <div class="page-number">Página 3</div>
+</div>
+
+</body>
+</html>
